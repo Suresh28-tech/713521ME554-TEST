@@ -1,0 +1,32 @@
+.main1{
+    background-color: #1B588E;
+    text-align: center;
+    height: 100px;
+    color: whitesmoke;
+    border-bottom: 8px solid red;
+}
+
+.main2{
+    margin: auto;
+    margin-top: 30px;
+    height: 700px;
+    width: 1000px;
+    border: 1px solid black;
+}
+
+.main3{
+    background-color: #1B588E;
+    color: whitesmoke;
+    border-bottom: 4px solid red;
+}
+
+select{
+    border-radius: 8px;
+}
+
+.dont{
+    margin: 20px;
+    color: #1B588E;
+    font-weight: 300;
+
+}

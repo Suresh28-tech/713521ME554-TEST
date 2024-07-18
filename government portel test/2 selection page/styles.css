@@ -1,0 +1,41 @@
+.cont{
+    background-color: #1B588E;
+}
+
+.home,.contact,.about{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.main1{
+    border-radius: 20px;
+    background-color: #1B588E;
+    width: 500px;
+    height: 500px;
+    display: flex;
+}
+
+.main1{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.corprate{
+    width: 150px;
+}
+
+.reg,.add{
+    text-decoration: none;
+}
+
+a:hover{
+    scale: 1.2;
+    transition: 0.3s;
+}
+
+a:active{
+    scale: 1.1;
+    transition: 0.3s;
+}
