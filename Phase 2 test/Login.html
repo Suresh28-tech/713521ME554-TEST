@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>School Management System</title>
+
+  <!---Custom CSS File--->
+  <link rel="stylesheet" href="/school management system/CSS/LoginStyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="JS/script.js"></script>
+  
+</head>
+<body>
+  <!-- Navigation Tab -->
+  <header class="Nav-Header">
+    <nav>
+      <div class="Nav-container">
+        <div class="logo">
+          <h1>Metro School <i class="fa-solid fa-school"></i></h1>
+        </div>
+            
+        <ul>
+          <li><a href="index.html" >Home</a></li>
+          <li><a href="Aboutus.html">About Us</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      </div>
+  </header>
+  <!-- Navigation Tab -->
+
+  <!-- Login Page -->
+  <div class="container">
+    <input type="checkbox" id="check">
+    <div class="login form">
+      <header>Login</header>
+      <form action="admission.html" name="form" onsubmit="return Validation()">
+        <input type="text" placeholder="Enter your email" name="email">
+        <input type="password" placeholder="Enter your password" name="password">
+        <a href="#">Forgot password?</a>
+        <input type="submit" class="button" value="Login">
+      </form>
+      <div class="signup">
+        <span class="signup">Don't have an account?
+         <label for="check">Signup</label>
+        </span>
+      </div>
+    </div>
+
+    <!-- registration form -->
+    <div class="registration form">
+      <header>Signup</header>
+      <form action="" name="form01" onsubmit="return Signup_Validation()">
+        <input type="text" placeholder="Enter your email" name="email01">
+        <input type="password" placeholder="Create a password" name="password01">
+        <input type="password" placeholder="Confirm your password" name="C_password">
+        <input type="submit" class="button" value="Signup">
+      </form>
+      <div class="signup">
+        <span class="signup">Already have an account?
+         <label for="check">Login</label>
+        </span>
+      </div>
+    </div>
+  </div>
+  <script src="JS/Login&SignUp.js"></script>
+</body>
+</html>
